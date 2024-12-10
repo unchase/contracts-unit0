@@ -1,0 +1,547 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x2A286045F801a8CC38841559C9C22d97038a204a",
+      "txHash": "0xf302533742284628f114e89fc25cc26c45a2a44e3e84b2557d2764e4a1cc02d9",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "8348c3e2426982eee01b2e71f842d15044a22144942b3da6529440737aab58f9": {
+      "address": "0xCb90b0764BD1AB090747C243f7748BC95275d8b9",
+      "txHash": "0xcab30bbeec3b1fc5d470a60256f684763bb06b8abb98260c9c5936adbcbc2a01",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:40"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_bool",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "PausableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:116"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC165Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_string_storage",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:25"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_string_storage",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:28"
+          },
+          {
+            "label": "_owners",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:31"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:34"
+          },
+          {
+            "label": "_tokenApprovals",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:37"
+          },
+          {
+            "label": "_operatorApprovals",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:40"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "207",
+            "type": "t_array(t_uint256)44_storage",
+            "contract": "ERC721Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:477"
+          },
+          {
+            "label": "_tokenURIs",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "contract": "ERC721URIStorageUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\extensions\\ERC721URIStorageUpgradeable.sol:17"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ERC721URIStorageUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC721\\extensions\\ERC721URIStorageUpgradeable.sol:86"
+          },
+          {
+            "label": "_referralReward",
+            "offset": 0,
+            "slot": "301",
+            "type": "t_uint256",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:33"
+          },
+          {
+            "label": "_walletToReferralCode",
+            "offset": 0,
+            "slot": "302",
+            "type": "t_mapping(t_address,t_string_storage)",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:42"
+          },
+          {
+            "label": "_referralCodeToWallet",
+            "offset": 0,
+            "slot": "303",
+            "type": "t_mapping(t_bytes32,t_address)",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:47"
+          },
+          {
+            "label": "_individualReward",
+            "offset": 0,
+            "slot": "304",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:52"
+          },
+          {
+            "label": "_claimableReferralWallets",
+            "offset": 0,
+            "slot": "305",
+            "type": "t_mapping(t_bytes32,t_array(t_address)dyn_storage)",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:57"
+          },
+          {
+            "label": "_referrerCodeToTokenIds",
+            "offset": 0,
+            "slot": "306",
+            "type": "t_mapping(t_bytes32,t_array(t_uint256)dyn_storage)",
+            "contract": "NomisReferralManager",
+            "src": "contracts\\NomisReferralManager.sol:62"
+          },
+          {
+            "label": "_calcModelsCount",
+            "offset": 0,
+            "slot": "307",
+            "type": "t_uint16",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:45"
+          },
+          {
+            "label": "tokenIdToCalcModel",
+            "offset": 0,
+            "slot": "308",
+            "type": "t_mapping(t_uint256,t_uint16)",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:54"
+          },
+          {
+            "label": "tokenIdToChainId",
+            "offset": 0,
+            "slot": "309",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:59"
+          },
+          {
+            "label": "calculationModelToMintCountUsed",
+            "offset": 0,
+            "slot": "310",
+            "type": "t_mapping(t_uint16,t_uint256)",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:64"
+          },
+          {
+            "label": "_score",
+            "offset": 0,
+            "slot": "311",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_mapping(t_uint16,t_struct(Score)5837_storage)))",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:69"
+          },
+          {
+            "label": "_nonce",
+            "offset": 0,
+            "slot": "312",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:75"
+          },
+          {
+            "label": "_walletToTokenIds",
+            "offset": 0,
+            "slot": "313",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "NomisStorageManager",
+            "src": "contracts\\NomisStorageManager.sol:80"
+          },
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "314",
+            "type": "t_mapping(t_address,t_mapping(t_uint16,t_bool))",
+            "contract": "NomisWhitelistManager",
+            "src": "contracts\\NomisWhitelistManager.sol:32"
+          },
+          {
+            "label": "_mintFee",
+            "offset": 0,
+            "slot": "315",
+            "type": "t_uint256",
+            "contract": "NomisPriceManager",
+            "src": "contracts\\NomisPriceManager.sol:31"
+          },
+          {
+            "label": "_updateFee",
+            "offset": 0,
+            "slot": "316",
+            "type": "t_uint256",
+            "contract": "NomisPriceManager",
+            "src": "contracts\\NomisPriceManager.sol:32"
+          },
+          {
+            "label": "calculationModelToFreeMintCount",
+            "offset": 0,
+            "slot": "317",
+            "type": "t_mapping(t_uint16,t_uint16)",
+            "contract": "NomisPriceManager",
+            "src": "contracts\\NomisPriceManager.sol:41"
+          },
+          {
+            "label": "_individualMintFee",
+            "offset": 0,
+            "slot": "318",
+            "type": "t_mapping(t_address,t_mapping(t_uint16,t_uint256))",
+            "contract": "NomisPriceManager",
+            "src": "contracts\\NomisPriceManager.sol:46"
+          },
+          {
+            "label": "_individualUpdateFee",
+            "offset": 0,
+            "slot": "319",
+            "type": "t_mapping(t_address,t_mapping(t_uint16,t_uint256))",
+            "contract": "NomisPriceManager",
+            "src": "contracts\\NomisPriceManager.sol:51"
+          },
+          {
+            "label": "_hashedName",
+            "offset": 0,
+            "slot": "320",
+            "type": "t_bytes32",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\cryptography\\EIP712Upgradeable.sol:40",
+            "renamedFrom": "_HASHED_NAME"
+          },
+          {
+            "label": "_hashedVersion",
+            "offset": 0,
+            "slot": "321",
+            "type": "t_bytes32",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\cryptography\\EIP712Upgradeable.sol:42",
+            "renamedFrom": "_HASHED_VERSION"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "322",
+            "type": "t_string_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\cryptography\\EIP712Upgradeable.sol:44"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "323",
+            "type": "t_string_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\cryptography\\EIP712Upgradeable.sol:45"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "324",
+            "type": "t_array(t_uint256)48_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\cryptography\\EIP712Upgradeable.sol:204"
+          },
+          {
+            "label": "_tokenIds",
+            "offset": 0,
+            "slot": "372",
+            "type": "t_struct(Counter)2160_storage",
+            "contract": "NomisScore",
+            "src": "contracts\\NomisScore.sol:33"
+          },
+          {
+            "label": "_baseUri",
+            "offset": 0,
+            "slot": "373",
+            "type": "t_string_storage",
+            "contract": "NomisScore",
+            "src": "contracts\\NomisScore.sol:39"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "374",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "NomisScore",
+            "src": "contracts\\NomisScore.sol:443"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]",
+            "numberOfBytes": "1408"
+          },
+          "t_array(t_uint256)48_storage": {
+            "label": "uint256[48]",
+            "numberOfBytes": "1536"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint16,t_bool))": {
+            "label": "mapping(address => mapping(uint16 => bool))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint16,t_uint256))": {
+            "label": "mapping(address => mapping(uint16 => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_mapping(t_uint16,t_struct(Score)5837_storage)))": {
+            "label": "mapping(address => mapping(uint256 => mapping(uint16 => struct NomisStorageManager.Score)))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_string_storage)": {
+            "label": "mapping(address => string)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_array(t_address)dyn_storage)": {
+            "label": "mapping(bytes32 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(bytes32 => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint16,t_bool)": {
+            "label": "mapping(uint16 => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint16,t_struct(Score)5837_storage)": {
+            "label": "mapping(uint16 => struct NomisStorageManager.Score)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint16,t_uint16)": {
+            "label": "mapping(uint16 => uint16)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint16,t_uint256)": {
+            "label": "mapping(uint16 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_uint16,t_struct(Score)5837_storage))": {
+            "label": "mapping(uint256 => mapping(uint16 => struct NomisStorageManager.Score))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_string_storage)": {
+            "label": "mapping(uint256 => string)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint16)": {
+            "label": "mapping(uint256 => uint16)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)2160_storage": {
+            "label": "struct CountersUpgradeable.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(Score)5837_storage": {
+            "label": "struct NomisStorageManager.Score",
+            "members": [
+              {
+                "label": "tokenId",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "updated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "value",
+                "type": "t_uint16",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
